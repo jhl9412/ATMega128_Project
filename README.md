@@ -1,5 +1,15 @@
 # ATMega128_Project
 ## 아두이노 우노 보드를 이용해 진행한 auto tracking fan을 수정한 프로젝트입니다.
+### 개요
+#### 1. 온도, 습도, 거리에 따라 자동으로 작동, 속도 조절, 방향 전환
+  - 온도, 습도 : 선풍기 풍속 제어  
+  - 거리(L, R) : 선풍기 풍향 제어  
+#### 2. 원격 통신
+  - 블루투스 활용 원격 제어
+### 시스템 구성도
+![시스템구성도](https://user-images.githubusercontent.com/102011846/182006374-b1336958-a8a1-4bc1-a3f2-75da816b44eb.png)  
+### 순서도
+![ATmega](https://user-images.githubusercontent.com/102011846/182006435-f7e55814-7b5c-49b7-b1a8-c69366698229.jpg)  
 ### 기능
 #### 1. atmega128A, atmega328P 보드 통신
 - USART0 : 디버깅 용, putty 출력.  
@@ -29,3 +39,4 @@
 - Bluetooth 이용
 ### 일정
 22.07.29 arduino, atmega 기본 기능 완성
+22.07.31 개발 문서 초안 작성
